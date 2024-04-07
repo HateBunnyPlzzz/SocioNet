@@ -161,7 +161,19 @@ source socionet_env/bin/activate
 
 # Now, you can install the required packages within this environment
 ```
+## Usage
 
+Before running the notebooks and scripts, please follow these guidelines to ensure a smooth execution:
+
+1. **Environment Setup**: Follow the instructions in the **Environment Setup and Requirements** section to prepare your Python environment with all necessary dependencies installed.
+2. **Data Preparation**:
+   - Ensure all required datasets are downloaded and placed in the project directory.
+   - **Important**: The dataset `final_2015_19_with_ViT.csv` is provided as a compressed RAR file (`final_2015_19_with_ViT.rar`) due to its large size. You must extract this file first in order to use it in the `model_training.ipynb` notebook. Use any standard file extraction tool that supports RAR files to uncompress `final_2015_19_with_ViT.rar`. The extracted CSV file should be located in the same directory as the notebook for the code to function properly.
+3. **Running Notebooks**:
+   - Open the Jupyter notebooks (`feature_fusion.ipynb`, `model_training.ipynb`) in your Jupyter environment.
+   - Run the cells in each notebook in order, following any additional instructions or notes provided within the notebooks themselves.
+
+By ensuring the `final_2015_19_with_ViT.csv` file is properly extracted and accessible, you'll avoid potential errors related to file not found exceptions or issues with data loading in the `model_training.ipynb` notebook.
 After setting up the environment and installing the required packages, you can proceed to run the project's notebooks and scripts.
 
 
