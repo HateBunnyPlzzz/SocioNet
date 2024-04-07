@@ -1,8 +1,4 @@
-Integrating all the details provided so far, here's a comprehensive README format for your project:
-
----
-
-# README for District-Level Poverty Estimation Project
+# README 
 
 ## Project Summary
 
