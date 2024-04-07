@@ -164,9 +164,6 @@ source socionet_env/bin/activate
 
 After setting up the environment and installing the required packages, you can proceed to run the project's notebooks and scripts.
 
-## Contributing
-
-Guidelines for contributing to the project, if applicable.
 
 ## License
 
